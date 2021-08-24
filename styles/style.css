@@ -1,4 +1,47 @@
-img {
-    display: block;
-    margin: 0 auto;
+html, body {
+    height: 100%;
+    font-family: Arial;
+}
+
+
+
+#mainDiv {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#navDiv {
+    flex-basis: 10%;   
+    flex-direction: row; 
+    display: flex;
+}
+
+    #navDiv a {
+        text-decoration: none;
+        font-size: 12;
+    }
+
+    #ueberGoogle{
+        flex: 30%;
+        
+    }
+
+    #anmelden {
+        flex: 70%;
+        text-align: right;
+    }
+
+#searchDiv {
+    flex-basis: 70%;
+}
+
+    #searchDiv img {
+        display: block;
+        margin: 0 auto;
+    }
+
+#bottomDiv {
+    flex-basis: 20%;
 }
