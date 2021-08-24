@@ -1,0 +1,1 @@
+I try to copy the google front page - without any function - to learn the basics of HTML and CSS.
