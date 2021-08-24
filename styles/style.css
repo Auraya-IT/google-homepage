@@ -1,9 +1,7 @@
 html, body {
     height: 100%;
-    font-family: Arial;
+    font-family: "Arial";
 }
-
-
 
 #mainDiv {
     height: 100%;
@@ -12,15 +10,17 @@ html, body {
 }
 
 #navDiv {
+    margin:2px;
     flex-basis: 10%;   
     flex-direction: row; 
-    display: flex;    
+    display: flex;   
+
 }
 
     #navDiv a {
         text-decoration: none;
         font-size: 0.9em;
-        padding-right: 20px;
+        padding-right: 15px;
     }
 
     #navDiv a:visited {
@@ -63,15 +63,37 @@ html, body {
     flex-direction: column;
 }
 
-    
-    #logo{
-        flex: 85%;
+    #inputField {
+        display: flex;
+        justify-content: center;
+        margin-top:25px;
     }
 
-    #logo img {
-        display: block;
-        margin: 0 auto;
-    }
+        #logo img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        #inputField input {
+            height: 40px;
+            width: 28%;
+            border-radius: 20px;
+            border-width: 1px;
+            border-style: solid;
+            background: url("../images/pic_google3.jpg");
+            background-repeat: no-repeat;
+            background-position: 7px 7px;
+            padding-left: 40px;
+            font-size: 15px;
+        }
+
+        #inputField input:focus {
+            outline: none;
+        }
+
+       
+
+    
 
 #bottomDiv {
     flex-basis: 20%;
